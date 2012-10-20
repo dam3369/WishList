@@ -1,2 +1,6 @@
 /nbproject/*
 vhost.conf
+/nbproject/private/
+/nbproject/
+.DS_Store
+/*/.DS_Store
