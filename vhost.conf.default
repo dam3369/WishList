@@ -1,0 +1,11 @@
+<VirtualHost *:80>
+    ServerName www.wishlist.local
+    DocumentRoot [PROJECT_PATH]\web
+
+    <Directory "[PROJECT_PATH]\web">
+        DirectoryIndex app.php
+        Options -Indexes FollowSymLinks SymLinksifOwnerMatch
+        AllowOverride All
+        Allow from All
+    </Directory>
+</VirtualHost>
